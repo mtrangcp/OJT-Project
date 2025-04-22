@@ -295,10 +295,12 @@ footer .info-coach .info-1,
 footer .info-coach .info-2 {
   display: flex;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 footer .info-coach .info-1 .news {
   flex: 2;
+  height: fit-content;
 }
 
 footer .info-coach .info-1 .roads,
@@ -402,7 +404,44 @@ footer .contact .about-us a {
   }
 
   main {
-    padding: 0 11.8%;
+    padding: 0 11.8% 80px 11.8%;
+  }
+
+  /*  */
+  footer {
+    padding: 48px 100px 0px 100px;
+  }
+
+  footer .info-coach {
+    flex-direction: row;
+  }
+
+  footer .info-coach .info-1,
+  footer .info-coach .info-2 {
+    flex-direction: column;
+  }
+
+  footer .contact .about-us {
+    width: calc(100% / 2);
+  }
+
+  footer .info-coach .info-1 .news,
+  footer .info-coach .info-1 .roads,
+  footer .info-coach .info-1 .limousine {
+    height: fit-content;
+    flex: initial;
+  }
+
+  footer .info-coach .info-2 .bus-station {
+    width: 100%;
+  }
+
+  footer .info-coach .info-2 .list-title-coach {
+    flex-direction: column;
+    width: 100%;
+  }
+  .list-title-coach .coach {
+    width: 100%;
   }
 }
 @media screen and (min-width: 869px) and (max-width: 990px) {
@@ -420,7 +459,43 @@ footer .contact .about-us a {
   }
 
   main {
-    padding: 0 100px;
+    padding: 0 100px 80px 100px;
+  }
+
+  /*  */
+  footer {
+    padding: 48px 40px 0px 40px;
+  }
+  footer .info-coach {
+    flex-direction: row;
+  }
+
+  footer .info-coach .info-1,
+  footer .info-coach .info-2 {
+    flex-direction: column;
+  }
+
+  footer .contact .about-us {
+    width: calc(100% / 2);
+  }
+
+  footer .info-coach .info-1 .news,
+  footer .info-coach .info-1 .roads,
+  footer .info-coach .info-1 .limousine {
+    height: fit-content;
+    flex: initial;
+  }
+
+  footer .info-coach .info-2 .bus-station {
+    width: 100%;
+  }
+
+  footer .info-coach .info-2 .list-title-coach {
+    flex-direction: column;
+    width: 100%;
+  }
+  .list-title-coach .coach {
+    width: 100%;
   }
 }
 
@@ -462,7 +537,43 @@ footer .contact .about-us a {
   }
 
   main {
-    padding: 0 16px;
+    padding: 0 16px 80px 16px;
+  }
+
+  /*  */
+  footer {
+    padding: 48px 16px 0px 16px;
+  }
+  footer .info-coach {
+    flex-direction: row;
+  }
+
+  footer .info-coach .info-1,
+  footer .info-coach .info-2 {
+    flex-direction: column;
+  }
+
+  footer .contact .about-us {
+    width: calc(100% / 2);
+  }
+
+  footer .info-coach .info-1 .news,
+  footer .info-coach .info-1 .roads,
+  footer .info-coach .info-1 .limousine {
+    height: fit-content;
+    flex: initial;
+  }
+
+  footer .info-coach .info-2 .bus-station {
+    width: 100%;
+  }
+
+  footer .info-coach .info-2 .list-title-coach {
+    flex-direction: column;
+    width: 100%;
+  }
+  .list-title-coach .coach {
+    width: 100%;
   }
 }
 
@@ -502,7 +613,46 @@ footer .contact .about-us a {
   main .list-coach .item {
     width: 100%;
   }
+
   main {
-    padding: 0 16px;
+    padding: 0 16px 80px 16px;
+  }
+
+  /*  */
+  footer {
+    padding: 48px 16px 0px 16px;
+  }
+
+  footer .info-coach .info-1,
+  footer .info-coach {
+    flex-direction: column;
+  }
+
+  footer .info-coach .info-2 {
+    flex-direction: row !important;
+    gap: 20px;
+  }
+
+  footer .contact .about-us {
+    width: calc(100% / 2);
+  }
+
+  footer .info-coach .info-1 .news,
+  footer .info-coach .info-1 .roads,
+  footer .info-coach .info-1 .limousine {
+    height: fit-content;
+    flex: initial;
+  }
+
+  footer .info-coach .info-2 .bus-station {
+    width: 100%;
+  }
+
+  footer .info-coach .info-2 .list-title-coach {
+    flex-direction: column;
+    width: 100%;
+  }
+  .list-title-coach .coach {
+    width: 100%;
   }
 }
