@@ -285,12 +285,25 @@ footer {
 }
 
 footer .info-coach {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-footer .info-coach .info-1 {
+footer .contact,
+footer .info-coach .info-1,
+footer .info-coach .info-2 {
   display: flex;
+  width: 100%;
+}
+
+footer .info-coach .info-1 .news {
+  flex: 2;
+}
+
+footer .info-coach .info-1 .roads,
+footer .info-coach .info-1 .limousine {
+  flex: 1;
 }
 
 footer .info-coach .info-1 .news,
@@ -303,9 +316,36 @@ footer .info-coach .info-1 .limousine {
   gap: 12px;
 }
 
+footer .contact .about-us,
+footer .info-coach .info-2 .bus-station {
+  width: calc(100% / 4);
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px 30px 16px;
+  gap: 12px;
+}
+
+footer .info-coach .info-2 .list-title-coach {
+  height: fit-content;
+  display: flex;
+  flex: 1;
+}
+
+.list-title-coach .coach {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 16px 30px 16px;
+}
+
 footer .info-coach .info-1 .news p,
 footer .info-coach .info-1 .roads p,
-footer .info-coach .info-1 .limousine p {
+footer .info-coach .info-1 .limousine p,
+footer .info-coach .info-2 .bus-station p,
+footer .info-coach .info-2 .coach p,
+footer .contact .about-us p {
   color: #000;
   font-size: 14.766px;
   font-weight: 700;
@@ -313,10 +353,41 @@ footer .info-coach .info-1 .limousine p {
 
 footer .info-coach .info-1 .news a,
 footer .info-coach .info-1 .roads a,
-footer .info-coach .info-1 .limousine a {
+footer .info-coach .info-1 .limousine a,
+footer .info-coach .info-2 .bus-station a,
+.list-title-coach .coach a,
+footer .contact .about-us a {
   text-decoration: none;
   color: #767676;
   font-size: 15px;
+  font-weight: 400;
+}
+
+.about-us .item-phone .p-1 {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.about-us .img1 {
+  height: 55.06px;
+  max-width: 98px;
+  object-fit: cover;
+}
+.about-us .img2 {
+  height: 44.53px;
+  max-width: 98px;
+  object-fit: cover;
+}
+.about-us .img3 {
+  height: 37.06px;
+  max-width: 98px;
+  object-fit: cover;
+}
+
+.about-us .item-phone .p-2 {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 11.3px;
   font-weight: 400;
 }
 
