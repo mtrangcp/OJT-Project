@@ -213,11 +213,6 @@ main .list-coach .item .info .location {
   gap: 4px;
 }
 
-main .list-coach .item .info .location img {
-  width: 15.567px;
-  height: 13.5px;
-}
-
 main .list-coach .item .info .location p {
   color: #333;
   font-size: 12px;
@@ -272,6 +267,9 @@ main .btn-group .list-btn .btn-active {
 }
 
 main .describe {
+  text-align: left;
+  width: 100%;
+
   color: #333;
   font-size: 20px;
   font-weight: 400;
@@ -393,7 +391,7 @@ footer .contact .about-us a {
   font-weight: 400;
 }
 
-@media screen and (min-width: 991px) and (max-width: 1290px) {
+@media screen and (min-width: 991px) and (max-width: 1289px) {
   header,
   nav {
     padding: 0 70px;
