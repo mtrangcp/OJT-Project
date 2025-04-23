@@ -193,3 +193,54 @@ main .search select {
 thead tr th {
   background-color: #e3e3e3 !important;
 }
+
+main .btn-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px 24px;
+  background-color: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.table-data,
+.table {
+  margin: 0 !important;
+}
+
+main .btn-group p {
+  color: #374151;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+main .btn-group .list-btn {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+main .btn-group .list-btn button {
+  padding: 5px 14px 6px 13px;
+  border-radius: 4px;
+  border: 1px solid #e5e7eb;
+  background-color: rgba(0, 0, 0, 0);
+
+  color: #4b5563;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+main .btn-group .list-btn button:hover {
+  background-color: #2563eb;
+  color: #fff;
+}
