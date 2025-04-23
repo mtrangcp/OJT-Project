@@ -393,7 +393,7 @@ footer .contact .about-us a {
   font-weight: 400;
 }
 
-@media screen and (min-width: 991px) and (max-width: 1290px) {
+@media screen and (min-width: 991px) and (max-width: 1279px) {
   header,
   nav {
     padding: 0 70px;
